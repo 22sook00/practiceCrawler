@@ -1,0 +1,24 @@
+{
+  "name": "practicecrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/22sook00/practiceCrawler.git"
+  },
+  "author": "LeeSookyoung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/22sook00/practiceCrawler/issues"
+  },
+  "homepage": "https://github.com/22sook00/practiceCrawler#readme",
+  "dependencies": {
+    "csv-parse": "^4.16.3",
+    "node-csv": "^0.1.2",
+    "xlsx": "^0.18.0"
+  }
+}
