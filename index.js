@@ -18,3 +18,10 @@ const workbook=xlsx.readFile('xlsx/data.xlsx');
 console.log('workbook:',Object.keys(workbook.Sheets));
 
 const ws = workbook.Sheets.Sheet1
+const records = xlsx.utils.sheet_to_json(ws);
+console.log(records)
+
+//entries 사용 시 내부 배열이 [인덱스, 값] 모양으로 변경.
+for(const [i,r] of records.entries()){
+  console.log(i,r.제목, r.링크)
+}
